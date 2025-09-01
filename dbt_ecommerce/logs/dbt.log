@@ -1,0 +1,1290 @@
+[0m13:06:49.963554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10269b350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108348c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083488c0>]}
+
+
+============================== 13:06:49.966609 | 4fa7851f-68ed-4d75-b180-a77313bafcad ==============================
+[0m13:06:49.966609 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:06:49.966962 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'write_json': 'True', 'target_path': 'None', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'version_check': 'True', 'no_print': 'None', 'indirect_selection': 'eager', 'empty': 'False', 'debug': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'printer_width': '80', 'partial_parse': 'True', 'use_colors': 'True', 'quiet': 'False'}
+[0m13:06:49.967318 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:06:49.969320 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.05075175, "process_in_blocks": "0", "process_kernel_time": 0.152645, "process_mem_max_rss": "103120896", "process_out_blocks": "0", "process_user_time": 0.74465}
+[0m13:06:49.969638 [debug] [MainThread]: Command `dbt run` failed at 13:06:49.969583 after 0.05 seconds
+[0m13:06:49.969840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108348c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10834a0c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083497c0>]}
+[0m13:06:49.970025 [debug] [MainThread]: Flushing usage events
+[0m13:06:51.155312 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:07:33.207075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085a2690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096d0b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096d0830>]}
+
+
+============================== 13:07:33.210202 | c6dd1bd0-b29f-451c-b7c5-558ff7da1a6a ==============================
+[0m13:07:33.210202 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:07:33.210571 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'target_path': 'None', 'profiles_dir': '/Users/quocminh/.dbt', 'no_print': 'None', 'version_check': 'True', 'partial_parse': 'True', 'quiet': 'False', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'debug': 'False', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'log_format': 'default', 'empty': 'False', 'use_colors': 'True'}
+[0m13:07:33.212212 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ecommerce'
+[0m13:07:33.213616 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.044631414, "process_in_blocks": "0", "process_kernel_time": 0.121617, "process_mem_max_rss": "104972288", "process_out_blocks": "0", "process_user_time": 0.704079}
+[0m13:07:33.213902 [debug] [MainThread]: Command `dbt run` failed at 13:07:33.213853 after 0.04 seconds
+[0m13:07:33.214094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093f03b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096d3620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096d2a50>]}
+[0m13:07:33.214278 [debug] [MainThread]: Flushing usage events
+[0m13:07:34.259676 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:10:02.590372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10723e5a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107914cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107914980>]}
+
+
+============================== 13:10:02.593708 | 49b4841f-dcf1-444f-8be6-55fd403e82b9 ==============================
+[0m13:10:02.593708 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:10:02.594076 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'log_cache_events': 'False', 'empty': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'static_parser': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'invocation_command': 'dbt run', 'target_path': 'None', 'version_check': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'introspect': 'True', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'log_format': 'default', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'fail_fast': 'False', 'printer_width': '80', 'write_json': 'True'}
+[0m13:10:03.600681 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "ecommerce", target "dev" invalid: 'database' is a required property
+[0m13:10:03.603846 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.0551385, "process_in_blocks": "0", "process_kernel_time": 0.24881, "process_mem_max_rss": "184909824", "process_out_blocks": "0", "process_user_time": 1.053945}
+[0m13:10:03.604299 [debug] [MainThread]: Command `dbt run` failed at 13:10:03.604244 after 1.06 seconds
+[0m13:10:03.604532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c227260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d05e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b4fef0>]}
+[0m13:10:03.604762 [debug] [MainThread]: Flushing usage events
+[0m13:10:04.898902 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:14:40.086560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074d4a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107674bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076748c0>]}
+
+
+============================== 13:14:40.089832 | dbdfae1d-2a5c-4a23-adc7-c82cad32bcac ==============================
+[0m13:14:40.089832 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:14:40.090195 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'introspect': 'True', 'no_print': 'None', 'warn_error': 'None', 'log_format': 'default', 'use_colors': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'static_parser': 'True', 'indirect_selection': 'eager', 'empty': 'False', 'debug': 'False', 'version_check': 'True', 'write_json': 'True', 'target_path': 'None', 'quiet': 'False', 'fail_fast': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'invocation_command': 'dbt run', 'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m13:14:40.777191 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "ecommerce", target "dev" invalid: 'account' is a required property
+[0m13:14:40.780253 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.73439944, "process_in_blocks": "0", "process_kernel_time": 0.233372, "process_mem_max_rss": "186007552", "process_out_blocks": "0", "process_user_time": 1.028062}
+[0m13:14:40.780642 [debug] [MainThread]: Command `dbt run` failed at 13:14:40.780595 after 0.73 seconds
+[0m13:14:40.780848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107674b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c91b380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b9ab380>]}
+[0m13:14:40.781056 [debug] [MainThread]: Flushing usage events
+[0m13:14:41.942414 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:16:03.517358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104212330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104884560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104884980>]}
+
+
+============================== 13:16:03.520913 | 34f8883a-49e8-4462-bfc7-0624629eab9f ==============================
+[0m13:16:03.520913 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:16:03.521268 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'target_path': 'None', 'debug': 'False', 'printer_width': '80', 'log_format': 'default', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'no_print': 'None', 'profiles_dir': '/Users/quocminh/.dbt', 'use_colors': 'True', 'static_parser': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'indirect_selection': 'eager', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'introspect': 'True', 'quiet': 'False', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run'}
+[0m13:16:04.299662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '34f8883a-49e8-4462-bfc7-0624629eab9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096038f0>]}
+[0m13:16:04.328189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '34f8883a-49e8-4462-bfc7-0624629eab9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103bf6f00>]}
+[0m13:16:04.328956 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:16:04.477485 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:16:04.478007 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:16:04.478225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '34f8883a-49e8-4462-bfc7-0624629eab9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10963dc40>]}
+[0m13:16:04.990509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '34f8883a-49e8-4462-bfc7-0624629eab9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ff92e0>]}
+[0m13:16:05.017970 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:16:05.019381 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:16:05.031694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '34f8883a-49e8-4462-bfc7-0624629eab9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ffa690>]}
+[0m13:16:05.031983 [info ] [MainThread]: Found 4 models, 477 macros
+[0m13:16:05.032174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '34f8883a-49e8-4462-bfc7-0624629eab9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a1cfe60>]}
+[0m13:16:05.033010 [info ] [MainThread]: 
+[0m13:16:05.033196 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:16:05.033353 [info ] [MainThread]: 
+[0m13:16:05.033606 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:16:05.035724 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m13:16:05.081926 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m13:16:05.082235 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m13:16:05.082405 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:16:06.284630 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m13:16:06.285104 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m13:16:06.285483 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m13:16:06.285771 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m13:16:06.286462 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:16:06.286817 [debug] [MainThread]: Connection 'list_dbt_db' was left open.
+[0m13:16:06.287117 [debug] [MainThread]: On list_dbt_db: No close available on handle
+[0m13:16:06.287425 [info ] [MainThread]: 
+[0m13:16:06.287736 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.25 seconds (1.25s).
+[0m13:16:06.288217 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "dbt_db"
+  Database Error
+    250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+[0m13:16:06.293189 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.817007, "process_in_blocks": "0", "process_kernel_time": 0.356991, "process_mem_max_rss": "207847424", "process_out_blocks": "0", "process_user_time": 1.78926}
+[0m13:16:06.293857 [debug] [MainThread]: Command `dbt run` failed at 13:16:06.293689 after 2.82 seconds
+[0m13:16:06.294369 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10026ed50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109cd5520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a223fb0>]}
+[0m13:16:06.294917 [debug] [MainThread]: Flushing usage events
+[0m13:16:07.360242 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:21:25.732183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104236390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051a4b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051a4800>]}
+
+
+============================== 13:21:25.735460 | 8a367c0e-a818-4ea1-818e-9673790ef2fb ==============================
+[0m13:21:25.735460 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:21:25.735838 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'empty': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'invocation_command': 'dbt run', 'no_print': 'None', 'introspect': 'True', 'cache_selected_only': 'False', 'debug': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'printer_width': '80', 'write_json': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'fail_fast': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_cache_events': 'False'}
+[0m13:21:26.524632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b361e0>]}
+[0m13:21:26.552168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104466c00>]}
+[0m13:21:26.552787 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:21:26.638815 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:21:26.670125 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m13:21:26.670455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105179cd0>]}
+[0m13:21:27.175368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12fcd51c0>]}
+[0m13:21:27.201832 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:21:27.203260 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:21:27.215688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12fcc8140>]}
+[0m13:21:27.215979 [info ] [MainThread]: Found 4 models, 477 macros
+[0m13:21:27.216177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12dbe4410>]}
+[0m13:21:27.217024 [info ] [MainThread]: 
+[0m13:21:27.217217 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:21:27.217376 [info ] [MainThread]: 
+[0m13:21:27.217631 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:21:27.219821 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m13:21:27.254008 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m13:21:27.254291 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m13:21:27.254450 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:21:30.432832 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.178 seconds
+[0m13:21:30.437996 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_db, now list_dbt_db_dbt_raw)
+[0m13:21:30.456248 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db_dbt_raw"
+[0m13:21:30.456824 [debug] [ThreadPool]: On list_dbt_db_dbt_raw: show objects in dbt_db.dbt_raw
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db_dbt_raw"} */;
+[0m13:21:30.585172 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.128 seconds
+[0m13:21:30.590525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12daa2a80>]}
+[0m13:21:30.595416 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_customers
+[0m13:21:30.596254 [info ] [Thread-1 (]: 1 of 4 START sql view model dbt_raw.stg_customers .............................. [RUN]
+[0m13:21:30.596961 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt_db_dbt_raw, now model.dbt_ecommerce.stg_customers)
+[0m13:21:30.597513 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_customers
+[0m13:21:30.607997 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_customers"
+[0m13:21:30.609589 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_customers
+[0m13:21:30.646874 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_customers"
+[0m13:21:30.648156 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_customers"
+[0m13:21:30.648466 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_customers: create or replace   view dbt_db.dbt_raw.stg_customers
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.customers
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_customers"} */;
+[0m13:21:30.738941 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01beb5bd-3201-e615-0000-000fa7ca73f5
+[0m13:21:30.739506 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on schema 'DBT_RAW'
+[0m13:21:30.744455 [debug] [Thread-1 (]: Database Error in model stg_customers (models/staging/stg_customers.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_customers.sql
+[0m13:21:30.746454 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x141f02ba0>]}
+[0m13:21:30.747176 [error] [Thread-1 (]: 1 of 4 ERROR creating sql view model dbt_raw.stg_customers ..................... [[31mERROR[0m in 0.15s]
+[0m13:21:30.747816 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_customers
+[0m13:21:30.748257 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_orders
+[0m13:21:30.748752 [debug] [Thread-4 (]: Marking all children of 'model.dbt_ecommerce.stg_customers' to be skipped because of status 'error'.  Reason: Database Error in model stg_customers (models/staging/stg_customers.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_customers.sql.
+[0m13:21:30.749240 [info ] [Thread-1 (]: 2 of 4 START sql view model dbt_raw.stg_orders ................................. [RUN]
+[0m13:21:30.750357 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_customers, now model.dbt_ecommerce.stg_orders)
+[0m13:21:30.750792 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_orders
+[0m13:21:30.752816 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_orders"
+[0m13:21:30.753523 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_orders
+[0m13:21:30.756270 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_orders"
+[0m13:21:30.757146 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_orders"
+[0m13:21:30.757500 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_orders: create or replace   view dbt_db.dbt_raw.stg_orders
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.orders
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_orders"} */;
+[0m13:21:30.853012 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01beb5bd-3201-e611-0000-000fa7ca4979
+[0m13:21:30.853593 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on schema 'DBT_RAW'
+[0m13:21:30.857672 [debug] [Thread-1 (]: Database Error in model stg_orders (models/staging/stg_orders.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_orders.sql
+[0m13:21:30.858221 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x141fa3950>]}
+[0m13:21:30.858927 [error] [Thread-1 (]: 2 of 4 ERROR creating sql view model dbt_raw.stg_orders ........................ [[31mERROR[0m in 0.11s]
+[0m13:21:30.859525 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_orders
+[0m13:21:30.859939 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_shipments
+[0m13:21:30.860458 [debug] [Thread-4 (]: Marking all children of 'model.dbt_ecommerce.stg_orders' to be skipped because of status 'error'.  Reason: Database Error in model stg_orders (models/staging/stg_orders.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_orders.sql.
+[0m13:21:30.861036 [info ] [Thread-1 (]: 3 of 4 START sql view model dbt_raw.stg_shipments .............................. [RUN]
+[0m13:21:30.861593 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_orders, now model.dbt_ecommerce.stg_shipments)
+[0m13:21:30.861929 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_shipments
+[0m13:21:30.863823 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_shipments"
+[0m13:21:30.864476 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_shipments
+[0m13:21:30.867249 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_shipments"
+[0m13:21:30.868200 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_shipments"
+[0m13:21:30.868571 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_shipments: create or replace   view dbt_db.dbt_raw.stg_shipments
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.shipments
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_shipments"} */;
+[0m13:21:30.946705 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01beb5bd-3201-e62d-0000-000fa7ca64d5
+[0m13:21:30.947320 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on schema 'DBT_RAW'
+[0m13:21:30.951988 [debug] [Thread-1 (]: Database Error in model stg_shipments (models/staging/stg_shipments.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_shipments.sql
+[0m13:21:30.952583 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a367c0e-a818-4ea1-818e-9673790ef2fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12fce5670>]}
+[0m13:21:30.953336 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model dbt_raw.stg_shipments ..................... [[31mERROR[0m in 0.09s]
+[0m13:21:30.954023 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_shipments
+[0m13:21:30.954522 [debug] [Thread-4 (]: Marking all children of 'model.dbt_ecommerce.stg_shipments' to be skipped because of status 'error'.  Reason: Database Error in model stg_shipments (models/staging/stg_shipments.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_shipments.sql.
+[0m13:21:30.955247 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.orders_status
+[0m13:21:30.955779 [info ] [Thread-1 (]: 4 of 4 SKIP relation dbt_raw.orders_status ..................................... [[33mSKIP[0m]
+[0m13:21:30.956316 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.orders_status
+[0m13:21:30.957329 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:21:30.957676 [debug] [MainThread]: Connection 'model.dbt_ecommerce.stg_shipments' was left open.
+[0m13:21:30.957990 [debug] [MainThread]: On model.dbt_ecommerce.stg_shipments: Close
+[0m13:21:31.065452 [info ] [MainThread]: 
+[0m13:21:31.066223 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 3.85 seconds (3.85s).
+[0m13:21:31.067629 [debug] [MainThread]: Command end result
+[0m13:21:31.094581 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:21:31.096389 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:21:31.102004 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/run_results.json
+[0m13:21:31.102393 [info ] [MainThread]: 
+[0m13:21:31.102738 [info ] [MainThread]: [31mCompleted with 3 errors, 0 partial successes, and 0 warnings:[0m
+[0m13:21:31.103028 [info ] [MainThread]: 
+[0m13:21:31.103372 [error] [MainThread]: [31mFailure in model stg_customers (models/staging/stg_customers.sql)[0m
+[0m13:21:31.103715 [error] [MainThread]:   Database Error in model stg_customers (models/staging/stg_customers.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_customers.sql
+[0m13:21:31.103978 [info ] [MainThread]: 
+[0m13:21:31.104281 [info ] [MainThread]:   compiled code at target/compiled/dbt_ecommerce/models/staging/stg_customers.sql
+[0m13:21:31.104540 [info ] [MainThread]: 
+[0m13:21:31.104849 [error] [MainThread]: [31mFailure in model stg_orders (models/staging/stg_orders.sql)[0m
+[0m13:21:31.105163 [error] [MainThread]:   Database Error in model stg_orders (models/staging/stg_orders.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_orders.sql
+[0m13:21:31.105415 [info ] [MainThread]: 
+[0m13:21:31.105706 [info ] [MainThread]:   compiled code at target/compiled/dbt_ecommerce/models/staging/stg_orders.sql
+[0m13:21:31.105944 [info ] [MainThread]: 
+[0m13:21:31.106205 [error] [MainThread]: [31mFailure in model stg_shipments (models/staging/stg_shipments.sql)[0m
+[0m13:21:31.106476 [error] [MainThread]:   Database Error in model stg_shipments (models/staging/stg_shipments.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_shipments.sql
+[0m13:21:31.106696 [info ] [MainThread]: 
+[0m13:21:31.106970 [info ] [MainThread]:   compiled code at target/compiled/dbt_ecommerce/models/staging/stg_shipments.sql
+[0m13:21:31.107194 [info ] [MainThread]: 
+[0m13:21:31.107452 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=3 SKIP=1 NO-OP=0 TOTAL=4
+[0m13:21:31.111461 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 5.4211183, "process_in_blocks": "0", "process_kernel_time": 0.441259, "process_mem_max_rss": "217923584", "process_out_blocks": "0", "process_user_time": 2.156226}
+[0m13:21:31.111950 [debug] [MainThread]: Command `dbt run` failed at 13:21:31.111873 after 5.42 seconds
+[0m13:21:31.112308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051a4bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12fc32000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12fcf5970>]}
+[0m13:21:31.112630 [debug] [MainThread]: Flushing usage events
+[0m13:21:32.178536 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:25:52.466620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1090e4e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096e0ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096e06e0>]}
+
+
+============================== 13:25:52.470018 | d9e210b9-5072-4da1-bf85-2a949b69be34 ==============================
+[0m13:25:52.470018 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:25:52.470370 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'quiet': 'False', 'version_check': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'static_parser': 'True', 'warn_error': 'None', 'log_format': 'default', 'no_print': 'None', 'invocation_command': 'dbt run', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'empty': 'False', 'write_json': 'True', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'printer_width': '80', 'debug': 'False'}
+[0m13:25:53.246599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eb3b020>]}
+[0m13:25:53.274187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e293530>]}
+[0m13:25:53.274880 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:25:53.361840 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:25:53.418036 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:25:53.418294 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:25:53.431032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee79820>]}
+[0m13:25:53.458618 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:25:53.460211 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:25:53.472649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f05c4d0>]}
+[0m13:25:53.472935 [info ] [MainThread]: Found 4 models, 477 macros
+[0m13:25:53.473129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee79bb0>]}
+[0m13:25:53.473998 [info ] [MainThread]: 
+[0m13:25:53.474204 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:25:53.474362 [info ] [MainThread]: 
+[0m13:25:53.474628 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:25:53.476777 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m13:25:53.511329 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m13:25:53.511609 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m13:25:53.511774 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:25:56.471866 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.960 seconds
+[0m13:25:56.477324 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_db, now list_dbt_db_dbt_raw)
+[0m13:25:56.495744 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db_dbt_raw"
+[0m13:25:56.496294 [debug] [ThreadPool]: On list_dbt_db_dbt_raw: show objects in dbt_db.dbt_raw
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db_dbt_raw"} */;
+[0m13:25:56.603984 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.107 seconds
+[0m13:25:56.610078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ec464e0>]}
+[0m13:25:56.613800 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_customers
+[0m13:25:56.614554 [info ] [Thread-1 (]: 1 of 4 START sql view model dbt_raw.stg_customers .............................. [RUN]
+[0m13:25:56.615216 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt_db_dbt_raw, now model.dbt_ecommerce.stg_customers)
+[0m13:25:56.615755 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_customers
+[0m13:25:56.624832 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_customers"
+[0m13:25:56.626191 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_customers
+[0m13:25:56.656739 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_customers"
+[0m13:25:56.658123 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_customers"
+[0m13:25:56.658551 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_customers: create or replace   view dbt_db.dbt_raw.stg_customers
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.customers
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_customers"} */;
+[0m13:25:56.766824 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01beb5c1-3201-e62d-0000-000fa7ca64f1
+[0m13:25:56.767388 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on schema 'DBT_RAW'
+[0m13:25:56.771375 [debug] [Thread-1 (]: Database Error in model stg_customers (models/staging/stg_customers.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_customers.sql
+[0m13:25:56.773005 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11719d490>]}
+[0m13:25:56.773559 [error] [Thread-1 (]: 1 of 4 ERROR creating sql view model dbt_raw.stg_customers ..................... [[31mERROR[0m in 0.16s]
+[0m13:25:56.774010 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_customers
+[0m13:25:56.774311 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_orders
+[0m13:25:56.774637 [debug] [Thread-4 (]: Marking all children of 'model.dbt_ecommerce.stg_customers' to be skipped because of status 'error'.  Reason: Database Error in model stg_customers (models/staging/stg_customers.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_customers.sql.
+[0m13:25:56.775017 [info ] [Thread-1 (]: 2 of 4 START sql view model dbt_raw.stg_orders ................................. [RUN]
+[0m13:25:56.775845 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_customers, now model.dbt_ecommerce.stg_orders)
+[0m13:25:56.776147 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_orders
+[0m13:25:56.777771 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_orders"
+[0m13:25:56.778524 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_orders
+[0m13:25:56.780577 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_orders"
+[0m13:25:56.781506 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_orders"
+[0m13:25:56.781799 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_orders: create or replace   view dbt_db.dbt_raw.stg_orders
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.orders
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_orders"} */;
+[0m13:25:56.852782 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01beb5c1-3201-e615-0000-000fa7ca7409
+[0m13:25:56.853198 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on schema 'DBT_RAW'
+[0m13:25:56.855990 [debug] [Thread-1 (]: Database Error in model stg_orders (models/staging/stg_orders.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_orders.sql
+[0m13:25:56.856370 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1173f75c0>]}
+[0m13:25:56.856814 [error] [Thread-1 (]: 2 of 4 ERROR creating sql view model dbt_raw.stg_orders ........................ [[31mERROR[0m in 0.08s]
+[0m13:25:56.857198 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_orders
+[0m13:25:56.857466 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_shipments
+[0m13:25:56.857790 [debug] [Thread-4 (]: Marking all children of 'model.dbt_ecommerce.stg_orders' to be skipped because of status 'error'.  Reason: Database Error in model stg_orders (models/staging/stg_orders.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_orders.sql.
+[0m13:25:56.858161 [info ] [Thread-1 (]: 3 of 4 START sql view model dbt_raw.stg_shipments .............................. [RUN]
+[0m13:25:56.858647 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_orders, now model.dbt_ecommerce.stg_shipments)
+[0m13:25:56.858900 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_shipments
+[0m13:25:56.860742 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_shipments"
+[0m13:25:56.861327 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_shipments
+[0m13:25:56.864360 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_shipments"
+[0m13:25:56.865120 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_shipments"
+[0m13:25:56.865392 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_shipments: create or replace   view dbt_db.dbt_raw.stg_shipments
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.shipments
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_shipments"} */;
+[0m13:25:56.937928 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01beb5c1-3201-e611-0000-000fa7ca4989
+[0m13:25:56.938399 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on schema 'DBT_RAW'
+[0m13:25:56.941587 [debug] [Thread-1 (]: Database Error in model stg_shipments (models/staging/stg_shipments.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_shipments.sql
+[0m13:25:56.942047 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd9e210b9-5072-4da1-bf85-2a949b69be34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11750a660>]}
+[0m13:25:56.942601 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model dbt_raw.stg_shipments ..................... [[31mERROR[0m in 0.08s]
+[0m13:25:56.943066 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_shipments
+[0m13:25:56.943451 [debug] [Thread-4 (]: Marking all children of 'model.dbt_ecommerce.stg_shipments' to be skipped because of status 'error'.  Reason: Database Error in model stg_shipments (models/staging/stg_shipments.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_shipments.sql.
+[0m13:25:56.944118 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.orders_status
+[0m13:25:56.944546 [info ] [Thread-1 (]: 4 of 4 SKIP relation dbt_raw.orders_status ..................................... [[33mSKIP[0m]
+[0m13:25:56.944881 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.orders_status
+[0m13:25:56.945616 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:25:56.945841 [debug] [MainThread]: Connection 'model.dbt_ecommerce.stg_shipments' was left open.
+[0m13:25:56.946059 [debug] [MainThread]: On model.dbt_ecommerce.stg_shipments: Close
+[0m13:25:57.048857 [info ] [MainThread]: 
+[0m13:25:57.049365 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 3.57 seconds (3.57s).
+[0m13:25:57.050067 [debug] [MainThread]: Command end result
+[0m13:25:57.066833 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:25:57.068908 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:25:57.074372 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/run_results.json
+[0m13:25:57.074760 [info ] [MainThread]: 
+[0m13:25:57.075114 [info ] [MainThread]: [31mCompleted with 3 errors, 0 partial successes, and 0 warnings:[0m
+[0m13:25:57.075404 [info ] [MainThread]: 
+[0m13:25:57.075726 [error] [MainThread]: [31mFailure in model stg_customers (models/staging/stg_customers.sql)[0m
+[0m13:25:57.076045 [error] [MainThread]:   Database Error in model stg_customers (models/staging/stg_customers.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_customers.sql
+[0m13:25:57.076301 [info ] [MainThread]: 
+[0m13:25:57.076773 [info ] [MainThread]:   compiled code at target/compiled/dbt_ecommerce/models/staging/stg_customers.sql
+[0m13:25:57.077013 [info ] [MainThread]: 
+[0m13:25:57.077292 [error] [MainThread]: [31mFailure in model stg_orders (models/staging/stg_orders.sql)[0m
+[0m13:25:57.077578 [error] [MainThread]:   Database Error in model stg_orders (models/staging/stg_orders.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_orders.sql
+[0m13:25:57.077906 [info ] [MainThread]: 
+[0m13:25:57.078138 [info ] [MainThread]:   compiled code at target/compiled/dbt_ecommerce/models/staging/stg_orders.sql
+[0m13:25:57.078460 [info ] [MainThread]: 
+[0m13:25:57.078701 [error] [MainThread]: [31mFailure in model stg_shipments (models/staging/stg_shipments.sql)[0m
+[0m13:25:57.078947 [error] [MainThread]:   Database Error in model stg_shipments (models/staging/stg_shipments.sql)
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on schema 'DBT_RAW'
+  compiled code at target/run/dbt_ecommerce/models/staging/stg_shipments.sql
+[0m13:25:57.079146 [info ] [MainThread]: 
+[0m13:25:57.079375 [info ] [MainThread]:   compiled code at target/compiled/dbt_ecommerce/models/staging/stg_shipments.sql
+[0m13:25:57.079577 [info ] [MainThread]: 
+[0m13:25:57.079824 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=3 SKIP=1 NO-OP=0 TOTAL=4
+[0m13:25:57.084307 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 4.660023, "process_in_blocks": "0", "process_kernel_time": 0.377753, "process_mem_max_rss": "214614016", "process_out_blocks": "0", "process_user_time": 1.585227}
+[0m13:25:57.084771 [debug] [MainThread]: Command `dbt run` failed at 13:25:57.084702 after 4.66 seconds
+[0m13:25:57.085099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b81f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eb148f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d003b0>]}
+[0m13:25:57.085378 [debug] [MainThread]: Flushing usage events
+[0m13:25:58.118125 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:32:26.934894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042af920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104649d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a0c500>]}
+
+
+============================== 13:32:26.938368 | 5f5e8acc-46ef-45cd-bc97-662740ee1303 ==============================
+[0m13:32:26.938368 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:32:26.938733 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'no_print': 'None', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'use_experimental_parser': 'False', 'static_parser': 'True', 'version_check': 'True', 'debug': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'introspect': 'True', 'quiet': 'False', 'use_colors': 'True', 'empty': 'None', 'invocation_command': 'dbt debug', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'partial_parse': 'True', 'fail_fast': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'cache_selected_only': 'False', 'log_cache_events': 'False'}
+[0m13:32:26.948542 [info ] [MainThread]: dbt version: 1.10.10
+[0m13:32:26.948765 [info ] [MainThread]: python version: 3.12.0
+[0m13:32:26.948932 [info ] [MainThread]: python path: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+[0m13:32:26.949086 [info ] [MainThread]: os info: macOS-15.6.1-arm64-arm-64bit
+[0m13:32:27.670601 [info ] [MainThread]: Using profiles dir at /Users/quocminh/.dbt
+[0m13:32:27.670916 [info ] [MainThread]: Using profiles.yml file at /Users/quocminh/.dbt/profiles.yml
+[0m13:32:27.671109 [info ] [MainThread]: Using dbt_project.yml file at /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/dbt_project.yml
+[0m13:32:27.671449 [info ] [MainThread]: adapter type: snowflake
+[0m13:32:27.671610 [info ] [MainThread]: adapter version: 1.10.0
+[0m13:32:27.718670 [info ] [MainThread]: Configuration:
+[0m13:32:27.719001 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:32:27.719174 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m13:32:27.719326 [info ] [MainThread]: Required dependencies:
+[0m13:32:27.719539 [debug] [MainThread]: Executing "git --help"
+[0m13:32:27.749025 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:32:27.749873 [debug] [MainThread]: STDERR: "b''"
+[0m13:32:27.750100 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:32:27.750302 [info ] [MainThread]: Connection:
+[0m13:32:27.750511 [info ] [MainThread]:   account: OZOASLP-JT92951
+[0m13:32:27.750661 [info ] [MainThread]:   user: MINHVO99
+[0m13:32:27.750810 [info ] [MainThread]:   database: dbt_db
+[0m13:32:27.750950 [info ] [MainThread]:   warehouse: dbt_wh
+[0m13:32:27.751091 [info ] [MainThread]:   role: accountadmin
+[0m13:32:27.751225 [info ] [MainThread]:   schema: dbt_schema
+[0m13:32:27.751362 [info ] [MainThread]:   authenticator: None
+[0m13:32:27.751495 [info ] [MainThread]:   oauth_client_id: None
+[0m13:32:27.751630 [info ] [MainThread]:   query_tag: None
+[0m13:32:27.751763 [info ] [MainThread]:   client_session_keep_alive: False
+[0m13:32:27.751901 [info ] [MainThread]:   host: None
+[0m13:32:27.752035 [info ] [MainThread]:   port: None
+[0m13:32:27.752165 [info ] [MainThread]:   proxy_host: None
+[0m13:32:27.752300 [info ] [MainThread]:   proxy_port: None
+[0m13:32:27.752433 [info ] [MainThread]:   protocol: None
+[0m13:32:27.752566 [info ] [MainThread]:   connect_retries: 1
+[0m13:32:27.752697 [info ] [MainThread]:   connect_timeout: None
+[0m13:32:27.752829 [info ] [MainThread]:   retry_on_database_errors: False
+[0m13:32:27.752963 [info ] [MainThread]:   retry_all: False
+[0m13:32:27.753094 [info ] [MainThread]:   insecure_mode: False
+[0m13:32:27.753223 [info ] [MainThread]:   reuse_connections: True
+[0m13:32:27.753357 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m13:32:27.753730 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:32:27.830925 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m13:32:27.857654 [debug] [MainThread]: Using snowflake connection "debug"
+[0m13:32:27.857915 [debug] [MainThread]: On debug: select 1 as id
+[0m13:32:27.858075 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:32:30.680201 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.822 seconds
+[0m13:32:30.683296 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:32:30.683918 [info ] [MainThread]: [32mAll checks passed![0m
+[0m13:32:30.692567 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 3.800152, "process_in_blocks": "0", "process_kernel_time": 0.339532, "process_mem_max_rss": "207699968", "process_out_blocks": "0", "process_user_time": 1.276052}
+[0m13:32:30.693589 [debug] [MainThread]: Command `dbt debug` succeeded at 13:32:30.693409 after 3.80 seconds
+[0m13:32:30.694171 [debug] [MainThread]: Connection 'debug' was left open.
+[0m13:32:30.694651 [debug] [MainThread]: On debug: Close
+[0m13:32:30.827368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103cfde80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10df93860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109e6ee10>]}
+[0m13:32:30.828728 [debug] [MainThread]: Flushing usage events
+[0m13:32:32.015678 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:32:35.590172 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063d6690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110144bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101447a0>]}
+
+
+============================== 13:32:35.593109 | e28639cc-1c26-4e14-bdb0-75ae44d2b3e4 ==============================
+[0m13:32:35.593109 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:32:35.593486 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'empty': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'write_json': 'True', 'target_path': 'None', 'use_colors': 'True', 'printer_width': '80', 'profiles_dir': '/Users/quocminh/.dbt', 'warn_error': 'None', 'static_parser': 'True', 'invocation_command': 'dbt run', 'debug': 'False', 'log_format': 'default', 'version_check': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'no_print': 'None'}
+[0m13:32:36.179770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b57680>]}
+[0m13:32:36.207775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104af4740>]}
+[0m13:32:36.208544 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:32:36.291748 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:32:36.324091 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m13:32:36.324426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10709f1d0>]}
+[0m13:32:36.827616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x130421340>]}
+[0m13:32:36.856085 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:32:36.857632 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:32:36.869669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1302cba70>]}
+[0m13:32:36.869953 [info ] [MainThread]: Found 4 models, 477 macros
+[0m13:32:36.870159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1302d6f30>]}
+[0m13:32:36.870985 [info ] [MainThread]: 
+[0m13:32:36.871178 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:32:36.871337 [info ] [MainThread]: 
+[0m13:32:36.871594 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:32:36.873777 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m13:32:36.906268 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m13:32:36.906546 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m13:32:36.906708 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:32:39.359437 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.453 seconds
+[0m13:32:39.363834 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_db, now create_dbt_db_dbt_schema)
+[0m13:32:39.364720 [debug] [ThreadPool]: Creating schema "database: "dbt_db"
+schema: "dbt_schema"
+"
+[0m13:32:39.372529 [debug] [ThreadPool]: Using snowflake connection "create_dbt_db_dbt_schema"
+[0m13:32:39.373130 [debug] [ThreadPool]: On create_dbt_db_dbt_schema: create schema if not exists dbt_db.dbt_schema
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "create_dbt_db_dbt_schema"} */
+[0m13:32:39.507143 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.133 seconds
+[0m13:32:39.512601 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dbt_db_dbt_schema, now list_dbt_db_dbt_schema)
+[0m13:32:39.531180 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db_dbt_schema"
+[0m13:32:39.531688 [debug] [ThreadPool]: On list_dbt_db_dbt_schema: show objects in dbt_db.dbt_schema
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db_dbt_schema"} */;
+[0m13:32:39.627686 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.096 seconds
+[0m13:32:39.630463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x130468ec0>]}
+[0m13:32:39.634070 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_customers
+[0m13:32:39.634877 [info ] [Thread-1 (]: 1 of 4 START sql view model dbt_schema.stg_customers ........................... [RUN]
+[0m13:32:39.635558 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt_db_dbt_schema, now model.dbt_ecommerce.stg_customers)
+[0m13:32:39.636090 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_customers
+[0m13:32:39.644478 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_customers"
+[0m13:32:39.645776 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_customers
+[0m13:32:39.679576 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_customers"
+[0m13:32:39.680777 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_customers"
+[0m13:32:39.681127 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_customers: create or replace   view dbt_db.dbt_schema.stg_customers
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.customers
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_customers"} */;
+[0m13:32:39.878944 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.197 seconds
+[0m13:32:39.902744 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068da060>]}
+[0m13:32:39.903482 [info ] [Thread-1 (]: 1 of 4 OK created sql view model dbt_schema.stg_customers ...................... [[32mSUCCESS 1[0m in 0.27s]
+[0m13:32:39.904055 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_customers
+[0m13:32:39.904449 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_orders
+[0m13:32:39.904989 [info ] [Thread-1 (]: 2 of 4 START sql view model dbt_schema.stg_orders .............................. [RUN]
+[0m13:32:39.905480 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_customers, now model.dbt_ecommerce.stg_orders)
+[0m13:32:39.905836 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_orders
+[0m13:32:39.907613 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_orders"
+[0m13:32:39.908417 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_orders
+[0m13:32:39.911271 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_orders"
+[0m13:32:39.912422 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_orders"
+[0m13:32:39.912990 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_orders: create or replace   view dbt_db.dbt_schema.stg_orders
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.orders
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_orders"} */;
+[0m13:32:40.119088 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.205 seconds
+[0m13:32:40.125140 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x131f19880>]}
+[0m13:32:40.126365 [info ] [Thread-1 (]: 2 of 4 OK created sql view model dbt_schema.stg_orders ......................... [[32mSUCCESS 1[0m in 0.22s]
+[0m13:32:40.127238 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_orders
+[0m13:32:40.127830 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_shipments
+[0m13:32:40.128676 [info ] [Thread-1 (]: 3 of 4 START sql view model dbt_schema.stg_shipments ........................... [RUN]
+[0m13:32:40.129501 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_orders, now model.dbt_ecommerce.stg_shipments)
+[0m13:32:40.130112 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_shipments
+[0m13:32:40.133060 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_shipments"
+[0m13:32:40.134422 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_shipments
+[0m13:32:40.138468 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_shipments"
+[0m13:32:40.139812 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_shipments"
+[0m13:32:40.140338 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_shipments: create or replace   view dbt_db.dbt_schema.stg_shipments
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.shipments
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_shipments"} */;
+[0m13:32:40.331161 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.190 seconds
+[0m13:32:40.336918 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x131f1b920>]}
+[0m13:32:40.338030 [info ] [Thread-1 (]: 3 of 4 OK created sql view model dbt_schema.stg_shipments ...................... [[32mSUCCESS 1[0m in 0.21s]
+[0m13:32:40.338888 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_shipments
+[0m13:32:40.339974 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.orders_status
+[0m13:32:40.340654 [info ] [Thread-1 (]: 4 of 4 START sql view model dbt_schema.orders_status ........................... [RUN]
+[0m13:32:40.341273 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_shipments, now model.dbt_ecommerce.orders_status)
+[0m13:32:40.341798 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.orders_status
+[0m13:32:40.346970 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.orders_status"
+[0m13:32:40.348313 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.orders_status
+[0m13:32:40.352246 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.orders_status"
+[0m13:32:40.354454 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.orders_status"
+[0m13:32:40.355097 [debug] [Thread-1 (]: On model.dbt_ecommerce.orders_status: create or replace   view dbt_db.dbt_schema.orders_status
+  
+  
+  
+  
+  as (
+    WITH base AS (
+    SELECT
+        o.order_id, c.name AS customer_name, o.order_date, s.status,
+        s.shipped_at, s.delivered_at,
+        DATEDIFF('hour', s.shipped_at, s.delivered_at) AS delivery_hours
+    FROM dbt_db.dbt_schema.stg_orders o
+    JOIN dbt_db.dbt_schema.stg_shipments s ON o.order_id = s.order_id
+    JOIN dbt_db.dbt_schema.stg_customers c ON o.customer_id = c.customer_id
+)
+
+SELECT *,
+        CASE WHEN status = 'shipped' AND delivery_hours > 48 THEN 'DELAYED' ELSE status END AS final_status
+FROM base
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.orders_status"} */;
+[0m13:32:40.681153 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.325 seconds
+[0m13:32:40.686166 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e28639cc-1c26-4e14-bdb0-75ae44d2b3e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x131f1cfb0>]}
+[0m13:32:40.687738 [info ] [Thread-1 (]: 4 of 4 OK created sql view model dbt_schema.orders_status ...................... [[32mSUCCESS 1[0m in 0.34s]
+[0m13:32:40.689067 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.orders_status
+[0m13:32:40.690727 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:32:40.691208 [debug] [MainThread]: Connection 'model.dbt_ecommerce.orders_status' was left open.
+[0m13:32:40.691650 [debug] [MainThread]: On model.dbt_ecommerce.orders_status: Close
+[0m13:32:40.810420 [info ] [MainThread]: 
+[0m13:32:40.811493 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 3.94 seconds (3.94s).
+[0m13:32:40.813358 [debug] [MainThread]: Command end result
+[0m13:32:40.842303 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:32:40.844289 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:32:40.850119 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/run_results.json
+[0m13:32:40.850527 [info ] [MainThread]: 
+[0m13:32:40.850898 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:32:40.851186 [info ] [MainThread]: 
+[0m13:32:40.851487 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m13:32:40.855292 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 5.300978, "process_in_blocks": "0", "process_kernel_time": 0.328155, "process_mem_max_rss": "214155264", "process_out_blocks": "0", "process_user_time": 2.084811}
+[0m13:32:40.855705 [debug] [MainThread]: Command `dbt run` succeeded at 13:32:40.855638 after 5.30 seconds
+[0m13:32:40.856031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e744a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075c5df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x127f0a540>]}
+[0m13:32:40.856331 [debug] [MainThread]: Flushing usage events
+[0m13:32:41.866745 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:40:25.461541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122b9cb00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123c44c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123c44920>]}
+
+
+============================== 13:40:25.465181 | a88a6eec-2c55-4334-a500-903f7695b31a ==============================
+[0m13:40:25.465181 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:40:25.465540 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'printer_width': '80', 'quiet': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'no_print': 'None', 'target_path': 'None', 'use_colors': 'True', 'static_parser': 'True', 'introspect': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'debug': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt run', 'warn_error': 'None', 'empty': 'False', 'fail_fast': 'False', 'cache_selected_only': 'False', 'write_json': 'True', 'version_check': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs'}
+[0m13:40:26.279490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1346d17c0>]}
+[0m13:40:26.307720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1344d16a0>]}
+[0m13:40:26.308397 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:40:26.394707 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:40:26.452494 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:40:26.452750 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:40:26.465668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13487bd10>]}
+[0m13:40:26.493922 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:40:26.495548 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:40:26.507960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1381204a0>]}
+[0m13:40:26.508229 [info ] [MainThread]: Found 4 models, 477 macros
+[0m13:40:26.508421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13811ac00>]}
+[0m13:40:26.509275 [info ] [MainThread]: 
+[0m13:40:26.509499 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:40:26.509686 [info ] [MainThread]: 
+[0m13:40:26.509965 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:40:26.512153 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m13:40:26.547545 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m13:40:26.547844 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m13:40:26.548011 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:40:29.495332 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 2.947 seconds
+[0m13:40:29.498351 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_db, now list_dbt_db_dbt_schema)
+[0m13:40:29.510747 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db_dbt_schema"
+[0m13:40:29.511112 [debug] [ThreadPool]: On list_dbt_db_dbt_schema: show objects in dbt_db.dbt_schema
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db_dbt_schema"} */;
+[0m13:40:29.640576 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.129 seconds
+[0m13:40:29.646259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066b8cb0>]}
+[0m13:40:29.649627 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_customers
+[0m13:40:29.650449 [info ] [Thread-1 (]: 1 of 4 START sql view model dbt_schema.stg_customers ........................... [RUN]
+[0m13:40:29.651129 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt_db_dbt_schema, now model.dbt_ecommerce.stg_customers)
+[0m13:40:29.651669 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_customers
+[0m13:40:29.661098 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_customers"
+[0m13:40:29.663248 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_customers
+[0m13:40:29.703330 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_customers"
+[0m13:40:29.705348 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_customers"
+[0m13:40:29.705750 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_customers: create or replace   view dbt_db.dbt_schema.stg_customers
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.customers
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_customers"} */;
+[0m13:40:29.872669 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.166 seconds
+[0m13:40:29.901843 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065f2930>]}
+[0m13:40:29.902498 [info ] [Thread-1 (]: 1 of 4 OK created sql view model dbt_schema.stg_customers ...................... [[32mSUCCESS 1[0m in 0.25s]
+[0m13:40:29.903093 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_customers
+[0m13:40:29.903540 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_orders
+[0m13:40:29.904079 [info ] [Thread-1 (]: 2 of 4 START sql view model dbt_schema.stg_orders .............................. [RUN]
+[0m13:40:29.904480 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_customers, now model.dbt_ecommerce.stg_orders)
+[0m13:40:29.904812 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_orders
+[0m13:40:29.906786 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_orders"
+[0m13:40:29.907636 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_orders
+[0m13:40:29.910369 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_orders"
+[0m13:40:29.911673 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_orders"
+[0m13:40:29.912129 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_orders: create or replace   view dbt_db.dbt_schema.stg_orders
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.orders
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_orders"} */;
+[0m13:40:30.082148 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.170 seconds
+[0m13:40:30.084080 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d7277d0>]}
+[0m13:40:30.084484 [info ] [Thread-1 (]: 2 of 4 OK created sql view model dbt_schema.stg_orders ......................... [[32mSUCCESS 1[0m in 0.18s]
+[0m13:40:30.084819 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_orders
+[0m13:40:30.085044 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_shipments
+[0m13:40:30.085349 [info ] [Thread-1 (]: 3 of 4 START sql view model dbt_schema.stg_shipments ........................... [RUN]
+[0m13:40:30.085580 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_orders, now model.dbt_ecommerce.stg_shipments)
+[0m13:40:30.085767 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_shipments
+[0m13:40:30.087142 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_shipments"
+[0m13:40:30.088720 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_shipments
+[0m13:40:30.093776 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_shipments"
+[0m13:40:30.094482 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_shipments"
+[0m13:40:30.094716 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_shipments: create or replace   view dbt_db.dbt_schema.stg_shipments
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.shipments
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_shipments"} */;
+[0m13:40:30.305411 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.210 seconds
+[0m13:40:30.311044 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d762ae0>]}
+[0m13:40:30.311836 [info ] [Thread-1 (]: 3 of 4 OK created sql view model dbt_schema.stg_shipments ...................... [[32mSUCCESS 1[0m in 0.23s]
+[0m13:40:30.312456 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_shipments
+[0m13:40:30.313398 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.orders_status
+[0m13:40:30.314106 [info ] [Thread-1 (]: 4 of 4 START sql view model dbt_schema.orders_status ........................... [RUN]
+[0m13:40:30.314615 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_shipments, now model.dbt_ecommerce.orders_status)
+[0m13:40:30.314983 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.orders_status
+[0m13:40:30.318269 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.orders_status"
+[0m13:40:30.319617 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.orders_status
+[0m13:40:30.322892 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.orders_status"
+[0m13:40:30.324816 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.orders_status"
+[0m13:40:30.325333 [debug] [Thread-1 (]: On model.dbt_ecommerce.orders_status: create or replace   view dbt_db.dbt_schema.orders_status
+  
+  
+  
+  
+  as (
+    WITH base AS (
+    SELECT
+        o.order_id, c.name AS customer_name, o.order_date, s.status,
+        s.shipped_at, s.delivered_at,
+        DATEDIFF('hour', s.shipped_at, s.delivered_at) AS delivery_hours
+    FROM dbt_db.dbt_schema.stg_orders o
+    JOIN dbt_db.dbt_schema.stg_shipments s ON o.order_id = s.order_id
+    JOIN dbt_db.dbt_schema.stg_customers c ON o.customer_id = c.customer_id
+)
+
+SELECT *,
+        CASE WHEN status = 'shipped' AND delivery_hours > 48 THEN 'DELAYED' ELSE status END AS final_status
+FROM base
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.orders_status"} */;
+[0m13:40:31.096672 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.771 seconds
+[0m13:40:31.102667 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a88a6eec-2c55-4334-a500-903f7695b31a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d7422d0>]}
+[0m13:40:31.104486 [info ] [Thread-1 (]: 4 of 4 OK created sql view model dbt_schema.orders_status ...................... [[32mSUCCESS 1[0m in 0.79s]
+[0m13:40:31.105505 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.orders_status
+[0m13:40:31.107312 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:40:31.107797 [debug] [MainThread]: Connection 'model.dbt_ecommerce.orders_status' was left open.
+[0m13:40:31.108264 [debug] [MainThread]: On model.dbt_ecommerce.orders_status: Close
+[0m13:40:31.245481 [info ] [MainThread]: 
+[0m13:40:31.246559 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 4.74 seconds (4.74s).
+[0m13:40:31.248765 [debug] [MainThread]: Command end result
+[0m13:40:31.276158 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:40:31.279213 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:40:31.285765 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/run_results.json
+[0m13:40:31.286129 [info ] [MainThread]: 
+[0m13:40:31.286507 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:40:31.286803 [info ] [MainThread]: 
+[0m13:40:31.287132 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m13:40:31.291398 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 5.870863, "process_in_blocks": "0", "process_kernel_time": 0.404738, "process_mem_max_rss": "210190336", "process_out_blocks": "0", "process_user_time": 1.675426}
+[0m13:40:31.291949 [debug] [MainThread]: Command `dbt run` succeeded at 13:40:31.291871 after 5.87 seconds
+[0m13:40:31.292339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122e243b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x134377ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d598e00>]}
+[0m13:40:31.292700 [debug] [MainThread]: Flushing usage events
+[0m13:40:32.314723 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:44:58.113718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10680d760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109948a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1099486b0>]}
+
+
+============================== 13:44:58.119691 | e0f38601-02b6-4869-aca4-59d0ed578b9c ==============================
+[0m13:44:58.119691 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:44:58.120158 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'partial_parse': 'True', 'fail_fast': 'False', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'introspect': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'debug': 'False', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'empty': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'invocation_command': 'dbt run', 'version_check': 'True', 'warn_error': 'None', 'printer_width': '80', 'cache_selected_only': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/quocminh/.dbt'}
+[0m13:44:58.759723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a3cb830>]}
+[0m13:44:58.787546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c05bf50>]}
+[0m13:44:58.788204 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:44:58.875967 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:44:58.931758 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:44:58.932004 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:44:58.944465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c853890>]}
+[0m13:44:58.972479 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:44:58.973961 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:44:58.986252 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11cca0620>]}
+[0m13:44:58.986526 [info ] [MainThread]: Found 4 models, 477 macros
+[0m13:44:58.986722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11cb6b4a0>]}
+[0m13:44:58.987585 [info ] [MainThread]: 
+[0m13:44:58.987786 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:44:58.987945 [info ] [MainThread]: 
+[0m13:44:58.988206 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:44:58.990373 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m13:44:59.026566 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m13:44:59.026875 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m13:44:59.027041 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:45:02.128945 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 3.102 seconds
+[0m13:45:02.133717 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_db, now list_dbt_db_dbt_schema)
+[0m13:45:02.151319 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db_dbt_schema"
+[0m13:45:02.151978 [debug] [ThreadPool]: On list_dbt_db_dbt_schema: show objects in dbt_db.dbt_schema
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db_dbt_schema"} */;
+[0m13:45:02.256497 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.104 seconds
+[0m13:45:02.262980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11cb695b0>]}
+[0m13:45:02.266660 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_customers
+[0m13:45:02.267454 [info ] [Thread-1 (]: 1 of 4 START sql view model dbt_schema.stg_customers ........................... [RUN]
+[0m13:45:02.268133 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt_db_dbt_schema, now model.dbt_ecommerce.stg_customers)
+[0m13:45:02.268665 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_customers
+[0m13:45:02.277742 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_customers"
+[0m13:45:02.279129 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_customers
+[0m13:45:02.309756 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_customers"
+[0m13:45:02.310925 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_customers"
+[0m13:45:02.311296 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_customers: create or replace   view dbt_db.dbt_schema.stg_customers
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.customers
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_customers"} */;
+[0m13:45:02.452892 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.141 seconds
+[0m13:45:02.488061 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061228d0>]}
+[0m13:45:02.488901 [info ] [Thread-1 (]: 1 of 4 OK created sql view model dbt_schema.stg_customers ...................... [[32mSUCCESS 1[0m in 0.22s]
+[0m13:45:02.489531 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_customers
+[0m13:45:02.489938 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_orders
+[0m13:45:02.490471 [info ] [Thread-1 (]: 2 of 4 START sql view model dbt_schema.stg_orders .............................. [RUN]
+[0m13:45:02.490964 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_customers, now model.dbt_ecommerce.stg_orders)
+[0m13:45:02.491331 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_orders
+[0m13:45:02.493274 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_orders"
+[0m13:45:02.494204 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_orders
+[0m13:45:02.496939 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_orders"
+[0m13:45:02.498106 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_orders"
+[0m13:45:02.498460 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_orders: create or replace   view dbt_db.dbt_schema.stg_orders
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.orders
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_orders"} */;
+[0m13:45:02.657647 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.158 seconds
+[0m13:45:02.662911 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11dd2bf80>]}
+[0m13:45:02.663934 [info ] [Thread-1 (]: 2 of 4 OK created sql view model dbt_schema.stg_orders ......................... [[32mSUCCESS 1[0m in 0.17s]
+[0m13:45:02.664781 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_orders
+[0m13:45:02.665390 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_shipments
+[0m13:45:02.666249 [info ] [Thread-1 (]: 3 of 4 START sql view model dbt_schema.stg_shipments ........................... [RUN]
+[0m13:45:02.667072 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_orders, now model.dbt_ecommerce.stg_shipments)
+[0m13:45:02.667709 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_shipments
+[0m13:45:02.670874 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_shipments"
+[0m13:45:02.672818 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_shipments
+[0m13:45:02.678629 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_shipments"
+[0m13:45:02.680119 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_shipments"
+[0m13:45:02.680594 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_shipments: create or replace   view dbt_db.dbt_schema.stg_shipments
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.shipments
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_shipments"} */;
+[0m13:45:02.820032 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.139 seconds
+[0m13:45:02.825688 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11dd52690>]}
+[0m13:45:02.827195 [info ] [Thread-1 (]: 3 of 4 OK created sql view model dbt_schema.stg_shipments ...................... [[32mSUCCESS 1[0m in 0.16s]
+[0m13:45:02.828486 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_shipments
+[0m13:45:02.829750 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.orders_status
+[0m13:45:02.830752 [info ] [Thread-1 (]: 4 of 4 START sql view model dbt_schema.orders_status ........................... [RUN]
+[0m13:45:02.831478 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_shipments, now model.dbt_ecommerce.orders_status)
+[0m13:45:02.832139 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.orders_status
+[0m13:45:02.837515 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.orders_status"
+[0m13:45:02.839265 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.orders_status
+[0m13:45:02.843506 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.orders_status"
+[0m13:45:02.845787 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.orders_status"
+[0m13:45:02.846405 [debug] [Thread-1 (]: On model.dbt_ecommerce.orders_status: create or replace   view dbt_db.dbt_schema.orders_status
+  
+  
+  
+  
+  as (
+    WITH base AS (
+    SELECT
+        o.order_id, c.name AS customer_name, o.order_date, s.status,
+        s.shipped_at, s.delivered_at,
+        DATEDIFF('hour', s.shipped_at, s.delivered_at) AS delivery_hours
+    FROM dbt_db.dbt_schema.stg_orders o
+    JOIN dbt_db.dbt_schema.stg_shipments s ON o.order_id = s.order_id
+    JOIN dbt_db.dbt_schema.stg_customers c ON o.customer_id = c.customer_id
+)
+
+SELECT *,
+        CASE WHEN status = 'shipped' AND delivery_hours > 48 THEN 'DELAYED' ELSE status END AS final_status
+FROM base
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.orders_status"} */;
+[0m13:45:03.096778 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.250 seconds
+[0m13:45:03.101870 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e0f38601-02b6-4869-aca4-59d0ed578b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11dd18170>]}
+[0m13:45:03.103348 [info ] [Thread-1 (]: 4 of 4 OK created sql view model dbt_schema.orders_status ...................... [[32mSUCCESS 1[0m in 0.27s]
+[0m13:45:03.104230 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.orders_status
+[0m13:45:03.106341 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:45:03.106996 [debug] [MainThread]: Connection 'model.dbt_ecommerce.orders_status' was left open.
+[0m13:45:03.107492 [debug] [MainThread]: On model.dbt_ecommerce.orders_status: Close
+[0m13:45:03.224948 [info ] [MainThread]: 
+[0m13:45:03.226397 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 4.24 seconds (4.24s).
+[0m13:45:03.228245 [debug] [MainThread]: Command end result
+[0m13:45:03.255602 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m13:45:03.257723 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m13:45:03.264220 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/run_results.json
+[0m13:45:03.264611 [info ] [MainThread]: 
+[0m13:45:03.264959 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:45:03.265240 [info ] [MainThread]: 
+[0m13:45:03.265562 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m13:45:03.269592 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 5.2019157, "process_in_blocks": "0", "process_kernel_time": 0.346097, "process_mem_max_rss": "214384640", "process_out_blocks": "0", "process_user_time": 1.700174}
+[0m13:45:03.270109 [debug] [MainThread]: Command `dbt run` succeeded at 13:45:03.270028 after 5.20 seconds
+[0m13:45:03.270475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102af6de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c3f4380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108004740>]}
+[0m13:45:03.270826 [debug] [MainThread]: Flushing usage events
+[0m13:45:04.324493 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:13:37.811206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11816e8a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118949190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118948b90>]}
+[0m11:13:37.811256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1038c1430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d48f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d48a10>]}
+
+
+============================== 11:13:37.814824 | ff22a8da-f0f7-4a92-a876-374d7608b653 ==============================
+[0m11:13:37.814824 [info ] [MainThread]: Running with dbt=1.10.10
+
+
+============================== 11:13:37.814861 | 92a766d2-c336-4b73-8ac9-d894fc49ec6e ==============================
+[0m11:13:37.814861 [info ] [MainThread]: Running with dbt=1.10.10
+[0m11:13:37.815248 [debug] [MainThread]: running dbt with arguments {'empty': 'False', 'send_anonymous_usage_stats': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'quiet': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'warn_error': 'None', 'cache_selected_only': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'use_colors': 'True', 'printer_width': '80', 'introspect': 'True', 'log_format': 'default', 'no_print': 'None', 'fail_fast': 'False', 'version_check': 'True', 'debug': 'False', 'write_json': 'True', 'static_parser': 'True', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m11:13:37.815327 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'version_check': 'True', 'debug': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'empty': 'False', 'printer_width': '80', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'introspect': 'True', 'static_parser': 'True', 'quiet': 'False', 'profiles_dir': '/Users/quocminh/.dbt', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'indirect_selection': 'eager', 'use_colors': 'True', 'write_json': 'True', 'log_path': '/Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/logs', 'log_format': 'default', 'invocation_command': 'dbt run', 'cache_selected_only': 'False'}
+[0m11:13:40.667985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11cebae40>]}
+[0m11:13:40.667985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110a69d30>]}
+[0m11:13:40.697869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12c766180>]}
+[0m11:13:40.698427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10349e180>]}
+[0m11:13:40.698736 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m11:13:40.698976 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m11:13:40.866462 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m11:13:40.866464 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m11:13:40.932648 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:13:40.932650 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:13:40.932962 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:13:40.932960 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:13:40.946710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12c9bd250>]}
+[0m11:13:40.946709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d19d30>]}
+[0m11:13:40.979735 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m11:13:40.979794 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m11:13:40.981697 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m11:13:40.981747 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m11:13:40.997350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12cb9c440>]}
+[0m11:13:40.997389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11709cb60>]}
+[0m11:13:40.997787 [info ] [MainThread]: Found 4 models, 477 macros
+[0m11:13:40.997786 [info ] [MainThread]: Found 4 models, 477 macros
+[0m11:13:40.998023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12c9bd640>]}
+[0m11:13:40.998219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117097950>]}
+[0m11:13:40.999280 [info ] [MainThread]: 
+[0m11:13:40.999492 [info ] [MainThread]: 
+[0m11:13:40.999615 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:13:40.999845 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:13:40.999833 [info ] [MainThread]: 
+[0m11:13:41.000097 [info ] [MainThread]: 
+[0m11:13:41.000310 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:13:41.000500 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:13:41.003543 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m11:13:41.003543 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_dbt_db'
+[0m11:13:41.058605 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m11:13:41.058640 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db"
+[0m11:13:41.059001 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m11:13:41.059010 [debug] [ThreadPool]: On list_dbt_db: show terse schemas in database dbt_db
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db"} */
+[0m11:13:41.059213 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:13:41.059226 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:13:42.440273 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.381 seconds
+[0m11:13:42.440581 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.381 seconds
+[0m11:13:42.443983 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_db, now list_dbt_db_dbt_schema)
+[0m11:13:42.444136 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_db, now list_dbt_db_dbt_schema)
+[0m11:13:42.453291 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db_dbt_schema"
+[0m11:13:42.453261 [debug] [ThreadPool]: Using snowflake connection "list_dbt_db_dbt_schema"
+[0m11:13:42.453622 [debug] [ThreadPool]: On list_dbt_db_dbt_schema: show objects in dbt_db.dbt_schema
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db_dbt_schema"} */;
+[0m11:13:42.453632 [debug] [ThreadPool]: On list_dbt_db_dbt_schema: show objects in dbt_db.dbt_schema
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "connection_name": "list_dbt_db_dbt_schema"} */;
+[0m11:13:42.597674 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.144 seconds
+[0m11:13:42.601666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102dece30>]}
+[0m11:13:42.606372 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.152 seconds
+[0m11:13:42.608044 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_customers
+[0m11:13:42.608568 [info ] [Thread-1 (]: 1 of 4 START sql view model dbt_schema.stg_customers ........................... [RUN]
+[0m11:13:42.608937 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt_db_dbt_schema, now model.dbt_ecommerce.stg_customers)
+[0m11:13:42.608968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12c5d01a0>]}
+[0m11:13:42.609204 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_customers
+[0m11:13:42.611780 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_customers
+[0m11:13:42.612282 [info ] [Thread-1 (]: 1 of 4 START sql view model dbt_schema.stg_customers ........................... [RUN]
+[0m11:13:42.612690 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt_db_dbt_schema, now model.dbt_ecommerce.stg_customers)
+[0m11:13:42.613257 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_customers
+[0m11:13:42.615669 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_customers"
+[0m11:13:42.617297 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_customers
+[0m11:13:42.622687 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_customers"
+[0m11:13:42.623368 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_customers
+[0m11:13:42.639821 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_customers"
+[0m11:13:42.641335 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_customers"
+[0m11:13:42.641633 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_customers: create or replace   view dbt_db.dbt_schema.stg_customers
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.customers
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_customers"} */;
+[0m11:13:42.644765 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_customers"
+[0m11:13:42.645814 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_customers"
+[0m11:13:42.646109 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_customers: create or replace   view dbt_db.dbt_schema.stg_customers
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.customers
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_customers"} */;
+[0m11:13:42.872652 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.231 seconds
+[0m11:13:42.907109 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b95ee0>]}
+[0m11:13:42.907987 [info ] [Thread-1 (]: 1 of 4 OK created sql view model dbt_schema.stg_customers ...................... [[32mSUCCESS 1[0m in 0.30s]
+[0m11:13:42.908612 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_customers
+[0m11:13:42.909044 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_orders
+[0m11:13:42.909704 [info ] [Thread-1 (]: 2 of 4 START sql view model dbt_schema.stg_orders .............................. [RUN]
+[0m11:13:42.910240 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_customers, now model.dbt_ecommerce.stg_orders)
+[0m11:13:42.910638 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_orders
+[0m11:13:42.912624 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_orders"
+[0m11:13:42.913572 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_orders
+[0m11:13:42.916739 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_orders"
+[0m11:13:42.917944 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_orders"
+[0m11:13:42.918330 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_orders: create or replace   view dbt_db.dbt_schema.stg_orders
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.orders
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_orders"} */;
+[0m11:13:42.977055 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.331 seconds
+[0m11:13:42.996732 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a22960>]}
+[0m11:13:42.997251 [info ] [Thread-1 (]: 1 of 4 OK created sql view model dbt_schema.stg_customers ...................... [[32mSUCCESS 1[0m in 0.38s]
+[0m11:13:42.997642 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_customers
+[0m11:13:42.997923 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_orders
+[0m11:13:42.998374 [info ] [Thread-1 (]: 2 of 4 START sql view model dbt_schema.stg_orders .............................. [RUN]
+[0m11:13:42.998728 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_customers, now model.dbt_ecommerce.stg_orders)
+[0m11:13:42.998991 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_orders
+[0m11:13:43.000295 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_orders"
+[0m11:13:43.000728 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_orders
+[0m11:13:43.002549 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_orders"
+[0m11:13:43.003098 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_orders"
+[0m11:13:43.003355 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_orders: create or replace   view dbt_db.dbt_schema.stg_orders
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.orders
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_orders"} */;
+[0m11:13:43.103062 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.184 seconds
+[0m11:13:43.105359 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120101b50>]}
+[0m11:13:43.105962 [info ] [Thread-1 (]: 2 of 4 OK created sql view model dbt_schema.stg_orders ......................... [[32mSUCCESS 1[0m in 0.20s]
+[0m11:13:43.106468 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_orders
+[0m11:13:43.106833 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.107260 [info ] [Thread-1 (]: 3 of 4 START sql view model dbt_schema.stg_shipments ........................... [RUN]
+[0m11:13:43.107625 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_orders, now model.dbt_ecommerce.stg_shipments)
+[0m11:13:43.107937 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.109513 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_shipments"
+[0m11:13:43.110627 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.113058 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_shipments"
+[0m11:13:43.113860 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_shipments"
+[0m11:13:43.114187 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_shipments: create or replace   view dbt_db.dbt_schema.stg_shipments
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.shipments
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_shipments"} */;
+[0m11:13:43.357148 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.242 seconds
+[0m11:13:43.362990 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1201dec60>]}
+[0m11:13:43.365059 [info ] [Thread-1 (]: 3 of 4 OK created sql view model dbt_schema.stg_shipments ...................... [[32mSUCCESS 1[0m in 0.26s]
+[0m11:13:43.367320 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.369156 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.orders_status
+[0m11:13:43.369710 [info ] [Thread-1 (]: 4 of 4 START sql view model dbt_schema.orders_status ........................... [RUN]
+[0m11:13:43.370336 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_shipments, now model.dbt_ecommerce.orders_status)
+[0m11:13:43.370743 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.orders_status
+[0m11:13:43.375044 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.orders_status"
+[0m11:13:43.376582 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.orders_status
+[0m11:13:43.379540 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.orders_status"
+[0m11:13:43.381119 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.orders_status"
+[0m11:13:43.382820 [debug] [Thread-1 (]: On model.dbt_ecommerce.orders_status: create or replace   view dbt_db.dbt_schema.orders_status
+  
+  
+  
+  
+  as (
+    WITH base AS (
+    SELECT
+        o.order_id, c.name AS customer_name, o.order_date, s.status,
+        s.shipped_at, s.delivered_at,
+        DATEDIFF('hour', s.shipped_at, s.delivered_at) AS delivery_hours
+    FROM dbt_db.dbt_schema.stg_orders o
+    JOIN dbt_db.dbt_schema.stg_shipments s ON o.order_id = s.order_id
+    JOIN dbt_db.dbt_schema.stg_customers c ON o.customer_id = c.customer_id
+)
+
+SELECT *,
+        CASE WHEN status = 'shipped' AND delivery_hours > 48 THEN 'DELAYED' ELSE status END AS final_status
+FROM base
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.orders_status"} */;
+[0m11:13:43.426995 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.423 seconds
+[0m11:13:43.429553 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12db52d50>]}
+[0m11:13:43.430085 [info ] [Thread-1 (]: 2 of 4 OK created sql view model dbt_schema.stg_orders ......................... [[32mSUCCESS 1[0m in 0.43s]
+[0m11:13:43.430548 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_orders
+[0m11:13:43.430980 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.431537 [info ] [Thread-1 (]: 3 of 4 START sql view model dbt_schema.stg_shipments ........................... [RUN]
+[0m11:13:43.432333 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_orders, now model.dbt_ecommerce.stg_shipments)
+[0m11:13:43.432710 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.434343 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.stg_shipments"
+[0m11:13:43.434926 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.437259 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.stg_shipments"
+[0m11:13:43.437978 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.stg_shipments"
+[0m11:13:43.438267 [debug] [Thread-1 (]: On model.dbt_ecommerce.stg_shipments: create or replace   view dbt_db.dbt_schema.stg_shipments
+  
+  
+  
+  
+  as (
+    select * from dbt_raw.shipments
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.stg_shipments"} */;
+[0m11:13:43.645272 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.207 seconds
+[0m11:13:43.649557 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12db0c9e0>]}
+[0m11:13:43.650995 [info ] [Thread-1 (]: 3 of 4 OK created sql view model dbt_schema.stg_shipments ...................... [[32mSUCCESS 1[0m in 0.22s]
+[0m11:13:43.651974 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.stg_shipments
+[0m11:13:43.652893 [debug] [Thread-1 (]: Began running node model.dbt_ecommerce.orders_status
+[0m11:13:43.653515 [info ] [Thread-1 (]: 4 of 4 START sql view model dbt_schema.orders_status ........................... [RUN]
+[0m11:13:43.654015 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_ecommerce.stg_shipments, now model.dbt_ecommerce.orders_status)
+[0m11:13:43.654407 [debug] [Thread-1 (]: Began compiling node model.dbt_ecommerce.orders_status
+[0m11:13:43.658110 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_ecommerce.orders_status"
+[0m11:13:43.658956 [debug] [Thread-1 (]: Began executing node model.dbt_ecommerce.orders_status
+[0m11:13:43.663413 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_ecommerce.orders_status"
+[0m11:13:43.664996 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_ecommerce.orders_status"
+[0m11:13:43.665508 [debug] [Thread-1 (]: On model.dbt_ecommerce.orders_status: create or replace   view dbt_db.dbt_schema.orders_status
+  
+  
+  
+  
+  as (
+    WITH base AS (
+    SELECT
+        o.order_id, c.name AS customer_name, o.order_date, s.status,
+        s.shipped_at, s.delivered_at,
+        DATEDIFF('hour', s.shipped_at, s.delivered_at) AS delivery_hours
+    FROM dbt_db.dbt_schema.stg_orders o
+    JOIN dbt_db.dbt_schema.stg_shipments s ON o.order_id = s.order_id
+    JOIN dbt_db.dbt_schema.stg_customers c ON o.customer_id = c.customer_id
+)
+
+SELECT *,
+        CASE WHEN status = 'shipped' AND delivery_hours > 48 THEN 'DELAYED' ELSE status END AS final_status
+FROM base
+  )
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "ecommerce", "target_name": "dev", "node_id": "model.dbt_ecommerce.orders_status"} */;
+[0m11:13:43.747020 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.363 seconds
+[0m11:13:43.751504 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff22a8da-f0f7-4a92-a876-374d7608b653', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1201e0da0>]}
+[0m11:13:43.752381 [info ] [Thread-1 (]: 4 of 4 OK created sql view model dbt_schema.orders_status ...................... [[32mSUCCESS 1[0m in 0.38s]
+[0m11:13:43.753146 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.orders_status
+[0m11:13:43.754614 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:13:43.755096 [debug] [MainThread]: Connection 'model.dbt_ecommerce.orders_status' was left open.
+[0m11:13:43.755515 [debug] [MainThread]: On model.dbt_ecommerce.orders_status: Close
+[0m11:13:43.893508 [info ] [MainThread]: 
+[0m11:13:43.894504 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 2.89 seconds (2.89s).
+[0m11:13:43.895999 [debug] [MainThread]: Command end result
+[0m11:13:43.924445 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m11:13:43.928682 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m11:13:43.936277 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/run_results.json
+[0m11:13:43.936705 [info ] [MainThread]: 
+[0m11:13:43.937120 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:13:43.937461 [info ] [MainThread]: 
+[0m11:13:43.937820 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:13:43.976610 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 6.211832, "process_in_blocks": "0", "process_kernel_time": 0.648388, "process_mem_max_rss": "209453056", "process_out_blocks": "0", "process_user_time": 2.028529}
+[0m11:13:43.977416 [debug] [MainThread]: Command `dbt run` succeeded at 11:13:43.977308 after 6.21 seconds
+[0m11:13:43.977891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d48bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116fa4200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117538c80>]}
+[0m11:13:43.978302 [debug] [MainThread]: Flushing usage events
+[0m11:13:43.996472 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.330 seconds
+[0m11:13:43.998528 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92a766d2-c336-4b73-8ac9-d894fc49ec6e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12dbe7e00>]}
+[0m11:13:43.998982 [info ] [Thread-1 (]: 4 of 4 OK created sql view model dbt_schema.orders_status ...................... [[32mSUCCESS 1[0m in 0.34s]
+[0m11:13:43.999322 [debug] [Thread-1 (]: Finished running node model.dbt_ecommerce.orders_status
+[0m11:13:44.000141 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:13:44.000404 [debug] [MainThread]: Connection 'model.dbt_ecommerce.orders_status' was left open.
+[0m11:13:44.000611 [debug] [MainThread]: On model.dbt_ecommerce.orders_status: Close
+[0m11:13:44.112564 [info ] [MainThread]: 
+[0m11:13:44.113132 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 3.11 seconds (3.11s).
+[0m11:13:44.113907 [debug] [MainThread]: Command end result
+[0m11:13:44.127311 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/manifest.json
+[0m11:13:44.129002 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/semantic_manifest.json
+[0m11:13:44.133398 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/quocminh/Documents/portfolio-projects/ecommerce_project_ETL/dbt_ecommerce/target/run_results.json
+[0m11:13:44.133716 [info ] [MainThread]: 
+[0m11:13:44.134024 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:13:44.134253 [info ] [MainThread]: 
+[0m11:13:44.134612 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:13:44.137468 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 6.3730116, "process_in_blocks": "0", "process_kernel_time": 0.654056, "process_mem_max_rss": "208257024", "process_out_blocks": "0", "process_user_time": 1.990199}
+[0m11:13:44.137847 [debug] [MainThread]: Command `dbt run` succeeded at 11:13:44.137794 after 6.37 seconds
+[0m11:13:44.138183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118214c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1188c1b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12cb94380>]}
+[0m11:13:44.138439 [debug] [MainThread]: Flushing usage events
+[0m11:13:45.006648 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:13:45.169899 [debug] [MainThread]: An error was encountered while trying to flush usage events

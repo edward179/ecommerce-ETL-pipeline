@@ -1,0 +1,8 @@
+snowflake:
+  user: MINHVO99
+  password: Voquocminh1709
+  account: OZOASLP-JT92951
+  warehouse: dbt_wh
+  databse: dbt_db
+  schema: dbt_schema
+  role: ACCOUNTADMIN
